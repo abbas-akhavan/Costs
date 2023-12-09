@@ -1,0 +1,33 @@
+.main{
+    form{
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        width: 40%;
+        margin: auto;
+        input{
+            padding: 10px;
+        }
+        button{
+            background-color: green;
+        }
+    }
+    .costs{
+        width: 40%;
+        margin: auto;
+        margin-top: 20px;
+        display: flex;
+        border-radius: 13px;
+        background-color: black;
+        &:nth-child(even){
+            background-color: rgb(27, 27, 27);
+        }
+
+        >span{
+            flex-basis: 50%;
+            padding: 15px;
+            text-align: center;
+            
+        }
+    }
+}
