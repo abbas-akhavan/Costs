@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Costs = ({cost , index , removeFun}) => {
+const Costs = ({cost}) => {
   return (
     <div className='costs'>
         <span>{cost.name}</span>
